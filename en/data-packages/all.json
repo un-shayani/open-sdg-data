@@ -30,8 +30,19 @@
             "title": "Group"
           },
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-9",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
